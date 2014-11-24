@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         firstTiger.age = 3
         firstTiger.breed = "Bengal"
         firstTiger.image = UIImage(named: "BengalTiger.jpg")
+        
+        firstTiger.chuff()
+        
         myTigers.append(firstTiger)
         
         myImageView.image = firstTiger.image

@@ -14,4 +14,8 @@ struct Tiger {
     var name = ""
     var breed = ""
     var image = UIImage(named:"")  // TODO add a default image so this does not cause problems
+    
+    func chuff() {
+        println("Tiger: Chuff Chuff")
+    }
 }
